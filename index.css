@@ -164,7 +164,7 @@ body {
     }
 
     .heading {
-        height: 750px;
+        height: 800px;
     }
 
     .heading h1 {
@@ -200,6 +200,10 @@ body {
         margin-bottom: 20px;
     }
 
+    .kolom1 h2 {
+        font-size: 22px;
+    }
+
     .content2 {
         width: 100%;
         height: 600px;
@@ -210,6 +214,10 @@ body {
         margin-left: -78px;
         margin-top: 75px;
         margin-bottom: 20px;
+    }
+
+    .kolom2 h2 {
+        font-size: 22px;
     }
 
     .sosmed {
