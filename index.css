@@ -128,16 +128,17 @@ body {
 .sosmed {
     background-color: #181616;
     color: black;
-    padding: 100px;
+    padding: 140px 40px;
 }
 
-.linknya h2 {
+.sosmed h2 {
     margin: auto;
     text-align: center;
+    color: white;
     margin-bottom: 24px;
 }
 
-.linknya ul {
+.sosmed ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -145,33 +146,32 @@ body {
     margin: auto;
 }
 
-.linknya li {
+.sosmed li {
     display: inline-block;
-
 }
 
-.linknya a {
+.sosmed a {
     text-decoration: underline;
     padding: 12px 14px;
-    color: black;
+    color: white;
     font-size: 18px;
 }
 
-.linknya a:hover {
-    background-color: #181616;
-    color: white;
+.sosmed a:hover {
+    background-color: white;
+    color: black;
 }
 
 .email a {
     display: inline-block;
     text-decoration: none;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     margin-top: 24px;
 }
 
 .email a:hover {
-    background-color: #181616;
+    background-color: #797979;
     color: white;
 }
 
@@ -259,23 +259,17 @@ body {
         width: 100%;
     }
 
-    .linknya a {
+    .sosmed a {
         width: 100%;
         border-radius: 50px;
     }
 
-    .linknya h2 {
+    .sosmed h2 {
         width: 100%;
     }
 
     .email a {
-        width: 150px;
-    }
-
-    .kotak {
-        border-radius: 20px;
-        margin: auto;
-        margin-left: -61px;
+        width: 140px;
     }
 
     .footer {
