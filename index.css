@@ -100,19 +100,44 @@ body {
     clear: both;
 }
 
-.sosmed {
+.sertifikat {
     background-color: white;
+    height: 400px;
+    padding: 100px;
+}
+
+.serti {
+    margin: auto;
+    position: relative;
+    margin-top: 50px;
+}
+
+.serti h2 {
+    margin: auto;
+    text-align: center;
+    color: black;
+}
+
+.serti p {
+    margin: auto;
+    text-align: center;
+    margin-top: 24px;
+    color: black;
+}
+
+.sosmed {
+    background-color: #181616;
     color: black;
     padding: 100px;
 }
 
-.sosmed h2 {
+.linknya h2 {
     margin: auto;
     text-align: center;
     margin-bottom: 24px;
 }
 
-.sosmed ul {
+.linknya ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -120,19 +145,20 @@ body {
     margin: auto;
 }
 
-.sosmed li {
+.linknya li {
     display: inline-block;
+
 }
 
-.sosmed a {
-    text-decoration: none;
-    padding: 10px 12px;
+.linknya a {
+    text-decoration: underline;
+    padding: 12px 14px;
     color: black;
     font-size: 18px;
 }
 
-.sosmed a:hover {
-    background-color: black;
+.linknya a:hover {
+    background-color: #181616;
     color: white;
 }
 
@@ -145,16 +171,24 @@ body {
 }
 
 .email a:hover {
-    background-color: #292929;
+    background-color: #181616;
     color: white;
 }
 
 .footer {
-    background-color: #181616;
-    color: white;
+    background-color: white;
+    color: black;
     text-align: center;
     padding-left: 14px;
     padding: 2px;
+}
+
+.kotak {
+    background-color: white;
+    padding: 26px;
+    position: relative;
+    width: 300px;
+    margin: auto;
 }
 
 /* Handphone */
@@ -174,6 +208,7 @@ body {
     .heading .gambar {
         width: 250px;
         height: 250px;
+        border-radius: 8px;
     }
 
     .heading p {
@@ -224,13 +259,23 @@ body {
         width: 100%;
     }
 
-    .sosmed a {
+    .linknya a {
         width: 100%;
         border-radius: 50px;
     }
 
-    .sosmed h2 {
+    .linknya h2 {
         width: 100%;
+    }
+
+    .email a {
+        width: 150px;
+    }
+
+    .kotak {
+        border-radius: 20px;
+        margin: auto;
+        margin-left: -61px;
     }
 
     .footer {
